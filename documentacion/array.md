@@ -142,7 +142,9 @@ miArray.forEach((valor) => {
 ```
 
 5. Comparación de Arrays con Set y Map
+
 Aquí hay una tabla de comparación que muestra las diferencias clave entre arrays, Set y Map.
+
 | Característica       | `Array`                       | `Set`                        | `Map`                          |
 |----------------------|-------------------------------|------------------------------|--------------------------------|
 | Duplicados           | Permite duplicados            | No permite duplicados        | Claves únicas (pero valores pueden ser duplicados) |
