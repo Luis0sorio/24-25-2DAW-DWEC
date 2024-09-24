@@ -1,10 +1,13 @@
 # Map
 
 ## ¿Qué es un Map en JavaScript?
-Un Map es una estructura de datos en JavaScript que permite almacenar pares de clave-valor. A diferencia de los objetos (Object), las claves de un Map pueden ser de cualquier tipo, ya sean objetos, funciones, números, cadenas, etc. Esto lo hace muy flexible comparado con los objetos tradicionales, que solo permiten cadenas o símbolos como claves.
+Un Map es una estructura de datos en JavaScript que permite almacenar pares de clave-valor. A diferencia de los objetos (Object), las claves de un Map pueden ser de cualquier tipo, ya sean objetos, funciones, números, cadenas, etc. 
+
+Esto lo hace muy flexible comparado con los objetos tradicionales, que solo permiten cadenas o símbolos como claves.
 
 ## ¿Cómo crear un Map?
-Puedes crear un Map utilizando la palabra clave new Map(). Aquí tienes un ejemplo básico:
+Se pueden crear un Map utilizando la palabra clave new Map(). 
+Ejemplo:
 
 ```javascript
 // Crear un Map vacío
@@ -12,7 +15,7 @@ let miMapa = new Map();
 console.log(miMapa); // Output: Map(0) {}
 ```
 
-También puedes inicializar un Map con pares clave-valor pasándolos en un array de arrays al constructor:
+También se pueden inicializar un Map con pares clave-valor pasándolos en un array de arrays al constructor:
 
 ```javascript
 // Crear un Map con valores iniciales
@@ -141,7 +144,7 @@ for (let [clave, valor] of miMapa.entries()) {
 ```
 
 Usando forEach
-Puedes recorrer un Map con forEach, que toma una función de devolución de llamada (callback).
+Se puede recorrer un Map con forEach, que toma una función de devolución de llamada (callback).
 
 ```javascript
 let miMapa = new Map([['nombre', 'Juan'], ['edad', 30]]);
@@ -164,23 +167,24 @@ Aunque ambos almacenan pares clave-valor, hay varias diferencias importantes ent
 | Métodos específicos   | `set`, `get`, `has`, `delete` | No tiene métodos específicos   |
 | Prototipo            | No hereda propiedades del prototipo | Hereda propiedades del prototipo |
 
-
-
-
-
-Métodos adicionales
-keys(): Devuelve un iterador de las claves del Map.
+## Métodos adicionales
+- keys(): Devuelve un iterador de las claves del Map.
 
 ```javascript
 let miMapa = new Map([['nombre', 'Juan'], ['edad', 30]]);
 console.log([...miMapa.keys()]); // Output: ['nombre', 'edad']
-values(): Devuelve un iterador de los valores del Map.
+```
+
+- values(): Devuelve un iterador de los valores del Map.
 
 ```javascript
 let miMapa = new Map([['nombre', 'Juan'], ['edad', 30]]);
 console.log([...miMapa.values()]); // Output: ['Juan', 30]
-entries(): Devuelve un iterador de los pares clave-valor del Map.
+```
+
+- entries(): Devuelve un iterador de los pares clave-valor del Map.
 
 ```javascript
 let miMapa = new Map([['nombre', 'Juan'], ['edad', 30]]);
 console.log([...miMapa.entries()]); // Output: [['nombre', 'Juan'], ['edad', 30]]
+```
