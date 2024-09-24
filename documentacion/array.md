@@ -2,10 +2,10 @@
 
 Un array es una estructura de datos que permite almacenar una colección de elementos en una sola variable. Los arrays pueden contener elementos de cualquier tipo, incluidos números, cadenas, objetos e incluso otros arrays. Los elementos de un array están indexados, lo que significa que cada elemento tiene un número que representa su posición en el array, comenzando desde 0.
 
-1. ¿Cómo crear un Array?
+## ¿Cómo crear un Array?
 Puedes crear un array de varias maneras:
 
-1.1. Usando corchetes ([]):
+1. Usando corchetes ([]):
 
 ```javascript
 // Crear un array vacío
@@ -14,7 +14,7 @@ let miArray = [];
 console.log(miArray); // Output: []
 ```
 
-1.2. Usando el constructor Array:
+2. Usando el constructor Array:
 
 ```javascript
 // Crear un array con el constructor
@@ -23,7 +23,7 @@ let miArray2 = new Array(1, 2, 3, 4);
 console.log(miArray2); // Output: [1, 2, 3, 4]
 ```
 
-1.3. Usando el método Array.of():
+3. Usando el método Array.of():
 
 ```javascript
 let miArray3 = Array.of(5, 6, 7, 8);
@@ -31,13 +31,15 @@ let miArray3 = Array.of(5, 6, 7, 8);
 console.log(miArray3); // Output: [5, 6, 7, 8]
 ```
 
-2. Características clave de un Array
-2.1. Orden de elementos: Los elementos de un array están ordenados, y puedes acceder a ellos a través de su índice.
-2.2. Elementos de cualquier tipo: Un array puede contener elementos de diferentes tipos, no necesariamente del mismo tipo.
-2.3. Longitud dinámica: La longitud de un array puede cambiar a medida que se añaden o eliminan elementos.
+## Características clave de un Array
+1. Orden de elementos: Los elementos de un array están ordenados, y puedes acceder a ellos a través de su índice.
 
-3. Métodos más utilizados en los Arrays
-3.1. push(element)
+2. Elementos de cualquier tipo: Un array puede contener elementos de diferentes tipos, no necesariamente del mismo tipo.
+
+3. Longitud dinámica: La longitud de un array puede cambiar a medida que se añaden o eliminan elementos.
+
+# Métodos más utilizados en los Arrays
+1. push(element)
 Este método añade uno o más elementos al final del array y devuelve la nueva longitud del array.
 
 ```javascript
@@ -46,7 +48,7 @@ miArray.push(4);
 console.log(miArray); // Output: [1, 2, 3, 4]
 ```
 
-3.2. pop()
+2. pop()
 Este método elimina el último elemento del array y lo devuelve. Si el array está vacío, devuelve undefined.
 
 ```javascript
@@ -56,7 +58,7 @@ console.log(ultimoElemento); // Output: 3
 console.log(miArray); // Output: [1, 2]
 ```
 
-3.3. shift()
+3. shift()
 Este método elimina el primer elemento del array y lo devuelve. Si el array está vacío, devuelve undefined.
 
 ```javascript
@@ -66,7 +68,7 @@ console.log(primerElemento); // Output: 1
 console.log(miArray); // Output: [2, 3]
 ```
 
-3.4. unshift(element)
+4. unshift(element)
 Este método añade uno o más elementos al inicio del array y devuelve la nueva longitud del array.
 
 ```javascript
@@ -75,7 +77,7 @@ miArray.unshift(1);
 console.log(miArray); // Output: [1, 2, 3]
 ```
 
-3.5. splice(start, deleteCount, item1, item2, ...)
+5. splice(start, deleteCount, item1, item2, ...)
 Este método cambia el contenido de un array eliminando o reemplazando elementos existentes y/o agregando nuevos elementos en su lugar.
 
 ```javascript
@@ -84,7 +86,7 @@ miArray.splice(1, 2, 5, 6); // Elimina 2 elementos a partir del índice 1 y agre
 console.log(miArray); // Output: [1, 5, 6, 4]
 ```
 
-3.6. slice(start, end)
+6. slice(start, end)
 Este método devuelve una copia superficial de una porción del array en un nuevo array, sin modificar el array original.
 
 ```javascript
@@ -93,10 +95,10 @@ let nuevoArray = miArray.slice(1, 3);
 console.log(nuevoArray); // Output: [2, 3]
 ```
 
-4. Recorrer un Array
+# Recorrer un Array
 Puedes recorrer un array utilizando varias estructuras de control, como for, for..of y forEach.
 
-4.1. Usando un bucle for
+1. Usando un bucle for
 
 ```javascript
 let miArray = [1, 2, 3];
@@ -111,7 +113,7 @@ for (let i = 0; i < miArray.length; i++) {
 // 3
 ```
 
-4.2. Usando for..of
+2. Usando for..of
 
 ```javascript
 let miArray = [1, 2, 3];
@@ -126,7 +128,7 @@ for (let valor of miArray) {
 // 3
 ```
 
-4.3. Usando forEach
+3. Usando forEach
 
 ```javascript
 let miArray = [1, 2, 3];
@@ -141,7 +143,7 @@ miArray.forEach((valor) => {
 // 3
 ```
 
-5. Comparación de Arrays con Set y Map
+## Comparación de Arrays con Set y Map
 
 Aquí hay una tabla de comparación que muestra las diferencias clave entre arrays, Set y Map.
 
