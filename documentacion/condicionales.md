@@ -1,6 +1,6 @@
 # Condicionales
 
-Los condicionales son estructuras que permiten tomar decisiones en tu código. 
+Los condicionales son estructuras que permiten tomar decisiones en el código. 
 
 Ayudan a ejecutar un bloque de código si se cumple una determinada condición. 
 
