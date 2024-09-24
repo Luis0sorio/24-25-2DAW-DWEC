@@ -80,6 +80,5 @@ console.log(calcularArea(5, 10)); // Output: 50
 | Característica         | Funciones Tradicionales         | Funciones Flecha                |
 |------------------------|----------------------------------|----------------------------------|
 | Sintaxis               | Más larga                       | Más corta                        |
-| `this`                 | Su propio `this`               | Hereda `this` del contexto      |
 | Declaración de función  | `function nombre() {}`          | `const nombre = () => {}`       |
 | Uso en métodos         | Funciona bien                   | No se recomienda                 |
