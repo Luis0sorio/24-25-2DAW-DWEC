@@ -1,12 +1,12 @@
 # Atributos de la Etiqueta ```<script>``` en HTML
 
-La etiqueta <script> en HTML se utiliza para incluir código JavaScript en una página web. 
+La etiqueta ```<script>``` en HTML se utiliza para incluir código JavaScript en una página web. 
 
 Esta etiqueta puede contener código JavaScript directamente o puede hacer referencia a un archivo JavaScript externo. 
 
-Además, la etiqueta <script> tiene varios atributos que permiten controlar cómo se carga y se ejecuta el código JavaScript.
+Además, la etiqueta ```<script>``` tiene varios atributos que permiten controlar cómo se carga y se ejecuta el código JavaScript.
 
-## Atributos Comunes de la Etiqueta <script>
+## Atributos Comunes de la Etiqueta ```<script>```
 
     | Atributo         | Descripción                                                                 | Ejemplo                                   |
 |-------------------|-----------------------------------------------------------------------------|-------------------------------------------|
