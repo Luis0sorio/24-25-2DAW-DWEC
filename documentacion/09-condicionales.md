@@ -6,13 +6,14 @@ Ayudan a ejecutar un bloque de código si se cumple una determinada condición.
 
 ## ¿Por qué usar Condicionales?
 
-- **Toma de Decisiones**: Permiten que el programa se comporte de manera diferente según las condiciones.
+- **Toma de Decisiones**: permiten que el programa se comporte de manera diferente según las condiciones.
 
-- **Control de Flujo**: Ayudan a dirigir la ejecución del código según ciertas reglas.
+- **Control de Flujo**: ayudan a dirigir la ejecución del código según ciertas reglas.
 
-- **Interactividad**: Hacen que la aplicación responda de manera adecuada a diferentes entradas o situaciones.
+- **Interactividad**: hacen que la aplicación responda de manera adecuada a diferentes entradas o situaciones.
 
 ## Tipos de Condicionales en JavaScript
+
 JavaScript ofrece varias formas de implementar condicionales. Los más comunes son:
 
 - if
@@ -21,6 +22,7 @@ JavaScript ofrece varias formas de implementar condicionales. Los más comunes s
 - switch
 
 ### Condicional if
+
 La estructura básica de un condicional if evalúa una condición y ejecuta un bloque de código si la condición es verdadera.
 
 Sintaxis
@@ -42,6 +44,7 @@ if (edad >= 18) {
 ```
 
 ### Condicional if...else
+
 La estructura if...else te permite manejar dos casos: uno si la condición es verdadera y otro si es falsa.
 
 Sintaxis
@@ -67,6 +70,7 @@ if (edad >= 18) {
 ```
 
 ### Condicional else if
+
 Si existen múltiples condiciones que evaluar, se puede usar else if para agregar más opciones.
 
 Sintaxis
@@ -95,7 +99,8 @@ if (nota >= 90) {
 }
 ```
 
-4. Condicional switch
+### Condicional switch
+
 El condicional switch es útil cuando hay muchas condiciones que comparar. 
 
 Permite evaluar una expresión y ejecutar un bloque de código basado en su valor.
@@ -136,6 +141,7 @@ switch (dia) {
 ```
 
 ## Comparación de Condicionales
+
 | Tipo de Condicional | Cuando usarlo                                     | Ejemplo de Uso                      |
 |---------------------|--------------------------------------------------|-------------------------------------|
 | `if`                | Para evaluar una sola condición                  | Verificar si un número es positivo  |

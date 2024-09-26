@@ -1,6 +1,8 @@
 # Bucles
 
-Un bucle es una estructura de control que te permite ejecutar un bloque de código varias veces, hasta que se cumpla una condición específica. Los bucles son útiles cuando necesitas repetir acciones, como procesar elementos en una lista.
+Un bucle es una estructura de control que permite ejecutar un bloque de código varias veces, hasta que se cumpla una condición específica. 
+
+Los bucles son útiles cuando se necesita repetir acciones, como procesar elementos en una lista.
 
 ## ¿Por qué usar Bucles?
 - **Repetición de Código**: ahorran el esfuerzo de escribir el mismo código una y otra vez.
@@ -131,6 +133,7 @@ for (const clave in persona) {
 ```
 
 ## Comparación de Bucles
+
 | Tipo de Bucle   | Cuando usarlo                            | Ejemplo de Uso                              |
 |------------------|-----------------------------------------|---------------------------------------------|
 | `for`            | Cuando conoces cuántas veces ejecutar   | Contar del 1 al 10                          |

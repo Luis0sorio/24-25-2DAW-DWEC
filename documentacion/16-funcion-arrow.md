@@ -6,13 +6,14 @@ Se introdujeron en la versión ES6 de JavaScript y son especialmente útiles par
 
 ## ¿Por qué usar Funciones Flecha?
 
-- **Sintaxis más corta**: Te permiten escribir funciones en menos líneas de código.
+- **Sintaxis más corta**: permiten escribir funciones en menos líneas de código.
 
-- **Menos confusión**: No tienen su propio contexto de this, lo que significa que se comportan de manera diferente a las funciones tradicionales en situaciones donde this es importante.
+- **Menos confusión**: no tienen su propio contexto de this, lo que significa que se comportan de manera diferente a las funciones tradicionales en situaciones donde this es importante.
 
-- **Ideal para funciones simples**: Son perfectas para funciones que hacen operaciones sencillas, como sumar o multiplicar.
+- **Ideal para funciones simples**: son perfectas para funciones que hacen operaciones sencillas, como sumar o multiplicar.
 
 ## ¿Cómo se escriben las Funciones Flecha?
+
 La sintaxis de una función flecha es muy diferente de una función tradicional. 
 
 ### Función Flecha Básica
@@ -51,6 +52,7 @@ console.log(sumar(5, 3)); // Output: 8
 ```
 
 ### ¿Sin Parámetros?
+
 Se dejan los parentesis vacíos
 
 ```javascript
@@ -62,6 +64,7 @@ console.log(mensaje()); // Output: ¡Hola desde la función flecha!
 ```
 
 ## Función Flecha con Bloque de Código
+
 Si la función necesita hacer más de una tarea, se pueden usar llaves {} y return:
 
 ```javascript
