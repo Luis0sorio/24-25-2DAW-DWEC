@@ -8,7 +8,7 @@ Además, la etiqueta ```<script>``` tiene varios atributos que permiten controla
 
 ## Atributos Comunes de la Etiqueta ```<script>```
 
-    | Atributo         | Descripción                                                                 | Ejemplo                                   |
+| Atributo         | Descripción                                                                 | Ejemplo                                   |
 |-------------------|-----------------------------------------------------------------------------|-------------------------------------------|
 | `src`            | Especifica la URL del archivo JavaScript externo que se va a cargar.      | `<script src="script.js"></script>`      |
 | `type`           | Define el tipo de contenido del script. Por defecto, es `text/javascript`. | `<script type="text/javascript">`        |
