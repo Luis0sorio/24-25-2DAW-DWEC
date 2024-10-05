@@ -422,17 +422,67 @@ Además de window, el BOM contiene otros objetos que te proporcionan funcionalid
 - **location**: Información y control de la URL de la página actual.
 - **history**: Interacción con el historial del navegador (ir atrás, adelante).
 
+```
 window
+├── document             // Representa el documento HTML de la página.
+│   ├── getElementById(id)
+│   ├── querySelector(selector)
+│   ├── createElement(tagName)
+│   ├── ...
 │
-├── document   # Controla el contenido de la página HTML
+├── location             // Información sobre la URL actual y métodos de navegación.
+│   ├── href
+│   ├── reload()
+│   ├── assign(url)
+│   ├── ...
 │
-├── navigator  # Información sobre el navegador (nombre, versión, etc.)
+├── navigator            // Información sobre el navegador del usuario.
+│   ├── userAgent
+│   ├── platform
+│   ├── ...
 │
-├── screen     # Información sobre la pantalla (resolución, tamaño, etc.)
+├── screen               // Información sobre la pantalla del dispositivo.
+│   ├── width
+│   ├── height
+│   ├── ...
 │
-├── location   # Información sobre la URL actual y navegación
+├── history              // Métodos para manipular el historial del navegador.
+│   ├── back()
+│   ├── forward()
+│   ├── go()
+│   ├── ...
 │
-└── history    # Acceso al historial de navegación (ir atrás/adelante)
-
-
+├── console              // Herramientas para depuración en la consola.
+│   ├── log()
+│   ├── error()
+│   ├── warn()
+│   ├── ...
+│
+├── setTimeout(callback, delay)  // Ejecuta una función después de un tiempo.
+├── setInterval(callback, delay)  // Ejecuta una función repetidamente.
+├── clearTimeout(timeoutID)        // Cancela un temporizador.
+├── clearInterval(intervalID)      // Cancela una ejecución repetitiva.
+│
+├── alert(message)       // Muestra un cuadro de alerta al usuario.
+├── confirm(message)     // Muestra un cuadro de confirmación con dos botones.
+├── prompt(message, default) // Muestra un cuadro de entrada de texto.
+│
+├── localStorage          // Almacenamiento persistente en el navegador.
+│   ├── setItem(key, value)
+│   ├── getItem(key)
+│   ├── removeItem(key)
+│   ├── ...
+│
+├── sessionStorage        // Almacenamiento temporal durante la sesión.
+│   ├── setItem(key, value)
+│   ├── getItem(key)
+│   ├── removeItem(key)
+│   ├── ...
+│
+├── onload                // Evento que se ejecuta cuando la página se ha cargado completamente.
+├── onresize              // Evento que se ejecuta cuando se redimensiona la ventana.
+├── onscroll              // Evento que se ejecuta cuando se hace scroll en la página.
+│
+└── ...
+```
 
