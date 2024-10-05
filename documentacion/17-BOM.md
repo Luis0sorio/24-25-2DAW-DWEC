@@ -375,33 +375,43 @@ window.onload = rellenarFormulario;
 | **Propósito típico** | Almacenar preferencias o datos a largo plazo. | Almacenar datos temporales durante una sesión de navegación. |
 
 ## Diagrama clase Window
-┌───────────────┐
-│   window      │
-├───────────────┤
-│  Métodos      │
-│  • open()     │
-│  • close()    │
-│  • focus()    │
-│  • setTimeout()│
-│  • clearTimeout()│
-│  • setInterval()│
-│  • clearInterval()│
-│  • requestAnimationFrame() │
-│  • cancelAnimationFrame() │
-│  • resizeTo() │
-│  • moveTo()   │
-│  • ...        │
-├───────────────┤
-│  Propiedades  │
-│  • innerWidth │
-│  • innerHeight│
-│  • screenX    │
-│  • localStorage │
-│  • sessionStorage│
-│  • history    │
-│  • navigator  │
-│  • ...        │
-└───────────────┘
++---------------------------+
+|         window            |
++---------------------------+
+|       Propiedades         |
+|  -----------------------   |
+|  • innerWidth             |
+|  • innerHeight            |
+|  • outerWidth             |
+|  • outerHeight            |
+|  • screenX                |
+|  • screenY                |
+|  • pageXOffset            |
+|  • pageYOffset            |
+|  • localStorage           |
+|  • sessionStorage         |
+|  • location               |
+|  • closed                 |
+|  • name                   |
++---------------------------+
+|         Métodos           |
+|  -----------------------   |
+|  • open()                 |
+|  • close()                |
+|  • focus()                |
+|  • blur()                 |
+|  • moveTo()               |
+|  • moveBy()               |
+|  • resizeTo()             |
+|  • resizeBy()             |
+|  • setTimeout()           |
+|  • clearTimeout()         |
+|  • setInterval()          |
+|  • clearInterval()        |
+|  • scrollTo()             |
+|  • scrollBy()             |
++---------------------------+
+
 
 ## Objetos hijo del BOM
 Además de window, el BOM contiene otros objetos que te proporcionan funcionalidades más específicas. Aquí te los menciono brevemente:
