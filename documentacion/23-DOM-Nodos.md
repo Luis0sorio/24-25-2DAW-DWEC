@@ -60,7 +60,7 @@ Document
 ```
 
 En este árbol:
-•	Document es el nodo raíz.
-•	html es un nodo de elemento.
-•	head y body son nodos de elemento hijos del nodo html.
-•	Los elementos de texto dentro de las etiquetas (como "Título Principal" o "Este es un párrafo de texto") son nodos de texto.
+- Document es el nodo raíz.
+- html es un nodo de elemento.
+- head y body son nodos de elemento hijos del nodo html.
+- Los elementos de texto dentro de las etiquetas (como "Título Principal" o "Este es un párrafo de texto") son nodos de texto.
