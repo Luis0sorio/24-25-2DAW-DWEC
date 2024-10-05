@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+        let URL_RAW = location.search;
+        
+        let URLSPLIT = URL_RAW.toString().replace("?" , "").split("&");
+        console.group("Parametros");
+        console.log(URLSPLIT[0]);
+        console.log(URLSPLIT[1]);
+        console.groupEnd("Parametros");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
