@@ -161,7 +161,7 @@ const empleados = [
                 periodo: "2018-2020"
             },
             {
-                empresa: "Empresa L",
+                empresa: "Empresa A",
                 cargo: "Especialista en Recursos Humanos",
                 periodo: "2020-Actual"
             }
@@ -184,12 +184,12 @@ const empleados = [
         habilidades: ["Node.js", "Express", "MongoDB"],
         historialLaboral: [
             {
-                empresa: "Empresa M",
+                empresa: "Empresa J",
                 cargo: "Backend Developer Intern",
                 periodo: "2020-2021"
             },
             {
-                empresa: "Empresa N",
+                empresa: "Empresa E",
                 cargo: "Desarrollador Backend",
                 periodo: "2021-Actual"
             }
@@ -212,12 +212,12 @@ const empleados = [
         habilidades: ["Redes Sociales", "Content Creation", "SEO"],
         historialLaboral: [
             {
-                empresa: "Empresa O",
+                empresa: "Empresa I",
                 cargo: "Social Media Intern",
                 periodo: "2019-2020"
             },
             {
-                empresa: "Empresa P",
+                empresa: "Empresa B",
                 cargo: "Community Manager",
                 periodo: "2020-Actual"
             }
@@ -240,12 +240,12 @@ const empleados = [
         habilidades: ["Java", "C#", "SQL"],
         historialLaboral: [
             {
-                empresa: "Empresa Q",
+                empresa: "Empresa C",
                 cargo: "Junior Engineer",
                 periodo: "2020-2021"
             },
             {
-                empresa: "Empresa R",
+                empresa: "Empresa E",
                 cargo: "Ingeniero de Sistemas",
                 periodo: "2021-Actual"
             }
@@ -268,12 +268,12 @@ const empleados = [
         habilidades: ["Python", "Django", "REST APIs"],
         historialLaboral: [
             {
-                empresa: "Empresa S",
+                empresa: "Empresa F",
                 cargo: "Software Developer Intern",
                 periodo: "2019-2020"
             },
             {
-                empresa: "Empresa T",
+                empresa: "Empresa B",
                 cargo: "Desarrolladora de Software",
                 periodo: "2020-Actual"
             }
@@ -296,12 +296,12 @@ const empleados = [
         habilidades: ["SEO", "SEM", "Google Analytics"],
         historialLaboral: [
             {
-                empresa: "Empresa U",
+                empresa: "Empresa N",
                 cargo: "SEO Specialist",
                 periodo: "2018-2021"
             },
             {
-                empresa: "Empresa V",
+                empresa: "Empresa L",
                 cargo: "Especialista en SEO",
                 periodo: "2021-Actual"
             }
@@ -324,12 +324,12 @@ const empleados = [
         habilidades: ["Redacción", "Creatividad", "SEO"],
         historialLaboral: [
             {
-                empresa: "Empresa W",
+                empresa: "Empresa R",
                 cargo: "Junior Copywriter",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa X",
+                empresa: "Empresa C",
                 cargo: "Copywriter",
                 periodo: "2021-Actual"
             }
@@ -352,12 +352,12 @@ const empleados = [
         habilidades: ["UX Design", "Prototipado", "Investigación de Usuarios"],
         historialLaboral: [
             {
-                empresa: "Empresa Y",
+                empresa: "Empresa D",
                 cargo: "Junior UX/UI Designer",
                 periodo: "2020-2022"
             },
             {
-                empresa: "Empresa Z",
+                empresa: "Empresa P",
                 cargo: "Diseñador UX/UI",
                 periodo: "2022-Actual"
             }
@@ -380,12 +380,12 @@ const empleados = [
         habilidades: ["Estrategia de Marketing", "Análisis de Datos", "Liderazgo"],
         historialLaboral: [
             {
-                empresa: "Empresa AA",
+                empresa: "Empresa C",
                 cargo: "Marketing Coordinator",
                 periodo: "2017-2020"
             },
             {
-                empresa: "Empresa AB",
+                empresa: "Empresa J",
                 cargo: "Gerente de Marketing",
                 periodo: "2020-Actual"
             }
@@ -408,12 +408,12 @@ const empleados = [
         habilidades: ["Consultoría", "Gestión de Proyectos", "Análisis de Sistemas"],
         historialLaboral: [
             {
-                empresa: "Empresa AC",
+                empresa: "Empresa G",
                 cargo: "IT Consultant Intern",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa AD",
+                empresa: "Empresa K",
                 cargo: "Consultor de IT",
                 periodo: "2021-Actual"
             }
@@ -436,12 +436,12 @@ const empleados = [
         habilidades: ["Gestión de Proyectos", "Análisis de Riesgos", "Comunicación"],
         historialLaboral: [
             {
-                empresa: "Empresa AE",
+                empresa: "Empresa T",
                 cargo: "Project Manager Assistant",
                 periodo: "2018-2020"
             },
             {
-                empresa: "Empresa AF",
+                empresa: "Empresa H",
                 cargo: "Gestora de Proyectos",
                 periodo: "2020-Actual"
             }
@@ -464,12 +464,12 @@ const empleados = [
         habilidades: ["React Native", "Flutter", "Java"],
         historialLaboral: [
             {
-                empresa: "Empresa AG",
+                empresa: "Empresa B",
                 cargo: "Mobile Developer Intern",
                 periodo: "2020-2021"
             },
             {
-                empresa: "Empresa AH",
+                empresa: "Empresa A",
                 cargo: "Desarrollador Móvil",
                 periodo: "2021-Actual"
             }
@@ -492,12 +492,12 @@ const empleados = [
         habilidades: ["Análisis de Negocios", "Documentación", "Gestión de Requerimientos"],
         historialLaboral: [
             {
-                empresa: "Empresa AI",
+                empresa: "Empresa I",
                 cargo: "Business Analyst Intern",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa AJ",
+                empresa: "Empresa J",
                 cargo: "Analista de Negocios",
                 periodo: "2021-Actual"
             }
@@ -520,12 +520,12 @@ const empleados = [
         habilidades: ["Machine Learning", "Python", "R"],
         historialLaboral: [
             {
-                empresa: "Empresa AK",
+                empresa: "Empresa L",
                 cargo: "Data Scientist Intern",
                 periodo: "2018-2020"
             },
             {
-                empresa: "Empresa AL",
+                empresa: "Empresa S",
                 cargo: "Científico de Datos",
                 periodo: "2020-Actual"
             }
@@ -548,12 +548,12 @@ const empleados = [
         habilidades: ["Linux", "Windows Server", "Virtualización"],
         historialLaboral: [
             {
-                empresa: "Empresa AM",
+                empresa: "Empresa N",
                 cargo: "System Administrator Intern",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa AN",
+                empresa: "Empresa P",
                 cargo: "Administrador de Sistemas",
                 periodo: "2021-Actual"
             }
@@ -576,12 +576,12 @@ const empleados = [
         habilidades: ["Estrategia de Contenido", "Analítica Web", "Comunicación"],
         historialLaboral: [
             {
-                empresa: "Empresa AO",
+                empresa: "Empresa U",
                 cargo: "Social Media Manager Intern",
                 periodo: "2020-2021"
             },
             {
-                empresa: "Empresa AP",
+                empresa: "Empresa I",
                 cargo: "Gestora de Redes Sociales",
                 periodo: "2021-Actual"
             }
@@ -604,12 +604,12 @@ const empleados = [
         habilidades: ["Soporte Técnico", "Resolución de Problemas", "Comunicación"],
         historialLaboral: [
             {
-                empresa: "Empresa AQ",
+                empresa: "Empresa D",
                 cargo: "Support Technician Intern",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa AR",
+                empresa: "Empresa F",
                 cargo: "Técnico de Soporte",
                 periodo: "2021-Actual"
             }
@@ -632,12 +632,12 @@ const empleados = [
         habilidades: ["Control de Calidad", "Metodologías Ágiles", "Pruebas de Software"],
         historialLaboral: [
             {
-                empresa: "Empresa AS",
+                empresa: "Empresa C",
                 cargo: "Quality Assurance Intern",
                 periodo: "2019-2021"
             },
             {
-                empresa: "Empresa AT",
+                empresa: "Empresa B",
                 cargo: "Control de Calidad",
                 periodo: "2021-Actual"
             }
