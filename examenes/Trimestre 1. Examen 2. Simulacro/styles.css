@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #b0bec5;
+    cursor: not-allowed;
+}
+
+button:hover:enabled {
+    background: #0277bd;
+}
+
+#hoverBox {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffecb3;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#infoBox {
+    position: absolute;
+    background: #ffecb3;
+    border: 1px solid #ffcc80;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+#infoBox:not(.hidden) {
+    display: block;
+}
