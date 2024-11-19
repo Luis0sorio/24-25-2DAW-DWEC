@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trimestre 1. Examen 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <!-- Listas de Aprobados y Suspensos -->
+            <div class="listas">
+                <h2>Lista de Aprobados</h2>
+                <ul id="aprobados"></ul>
+        
+                <h2>Lista de Suspensos</h2>
+                <ul id="suspensos"></ul>
+            </div>
+        
+            <!-- Formulario de Entrada -->
+            <div class="formulario">
+                <h2>Registro de Calificaciones</h2>
+                <div class="form-group">
+                    <label for="nombre">Nombre del Alumno:</label>
+                    <input type="text" id="nombre" placeholder="Introduce el nombre">
+                </div>
+                <div class="form-group">
+                    <label for="modulo">Módulo:</label>
+                    <select id="modulo">
+                        <option value="" disabled selected>Seleccionar módulo</option>
+                        <option value="DWEC">DWEC</option>
+                        <option value="DWES">DWES</option>
+                        <option value="DIW">DIW</option>
+                        <option value="DAW">DAW</option>
+                        <option value="EIE">EIE</option>
+                        <option value="ING">ING</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="calificacion">Calificación:</label>
+                    <input type="number" id="calificacion" placeholder="Introduce la calificación" min="0" max="10">
+                </div>
+                <button id="agregar" disabled>Agregar Calificación</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
