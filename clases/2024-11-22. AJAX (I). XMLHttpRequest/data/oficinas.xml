@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" ?><Contenidos>
+    <infoDataset>
+        <nombre>Oficinas de la Agencia Municipal de Empleo</nombre>
+        <id>212086-0</id>
+        <uri>https://datos.madrid.es/egob/catalogo/212086-0-oficinas-empleo</uri>
+        <descripcion> Relación de las Oficinas de  zona de la Agencia Municipal de Empleo en la ciudad de Madrid. 
+ La Agencia para el Empleo dispone de una presencia física a través de 9 Agencias de Zona distribuidas por toda la ciudad de Madrid. Las agencias de zona son las primeras líneas de atención a las personas en búsqueda de empleo, donde un equipo profesional multidisciplinar les recibe y atiende ofreciéndoles servicios de información, orientación, formación, intermediación laboral y fomento del empleo. 
+    Fuente:     www.madrid.es    </descripcion>
+    </infoDataset>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">5949409</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Arganzuela</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo  Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.     Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Puerta de Toledo  Cercanias: Pirámides  Bus: 17, 18, 23, 35, 36, 41, 62, C03, C1 y C2]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1,6</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=845d9744cc0fd210VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">PONTONES</atributo>
+                <atributo nombre="CLASE-VIAL">PASEO</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">10</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28005</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">IMPERIAL</atributo>
+                <atributo nombre="COD-DISTRITO">2</atributo>
+                <atributo nombre="DISTRITO">ARGANZUELA</atributo>
+                <atributo nombre="COORDENADA-X">439268</atributo>
+                <atributo nombre="COORDENADA-Y">4472945</atributo>
+                <atributo nombre="LATITUD">40.40490800467937</atributo>
+                <atributo nombre="LONGITUD">-3.71572201978429</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">913 643 460</atributo>
+                <atributo nombre="EMAIL">azarganzuelaae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">5666151</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Barajas</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo .   Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Alameda de Osuna Bus: 114, 115, 151]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1,6</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=81e1cf4ee3448210VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CANTABRIA</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">6</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28042</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">ALAMEDA DE OSUNA</atributo>
+                <atributo nombre="COD-DISTRITO">21</atributo>
+                <atributo nombre="DISTRITO">BARAJAS</atributo>
+                <atributo nombre="COORDENADA-X">450175</atributo>
+                <atributo nombre="COORDENADA-Y">4478385</atributo>
+                <atributo nombre="LATITUD">40.45463575922803</atributo>
+                <atributo nombre="LONGITUD">-3.587632115472542</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">917 412 190</atributo>
+                <atributo nombre="EMAIL">azbarajasae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">4514901</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Carabanchel</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.  Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Carabanchel Alto Bus: 34, 35, 47, 139]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1,6</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=65c9d91db2790110VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CARABANCHEL ALTO</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">52</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28044</atributo>
+                <atributo nombre="COD-BARRIO">6</atributo>
+                <atributo nombre="BARRIO">BUENAVISTA</atributo>
+                <atributo nombre="COD-DISTRITO">11</atributo>
+                <atributo nombre="DISTRITO">CARABANCHEL</atributo>
+                <atributo nombre="COORDENADA-X">436104</atributo>
+                <atributo nombre="COORDENADA-Y">4469258</atributo>
+                <atributo nombre="LATITUD">40.37145598641213</atributo>
+                <atributo nombre="LONGITUD">-3.752637360655831</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 133 085</atributo>
+                <atributo nombre="EMAIL">apcarabanchelae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">5520471</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Latina</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.  Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[METRO/RENFE: Laguna BUS: 25,31,55 y 119]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1,6</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=d01487d2102a5210VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">ALHAMBRA</atributo>
+                <atributo nombre="CLASE-VIAL">CALLE</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">89</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28047</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">LOS CARMENES</atributo>
+                <atributo nombre="COD-DISTRITO">10</atributo>
+                <atributo nombre="DISTRITO">LATINA</atributo>
+                <atributo nombre="COORDENADA-X">436899</atributo>
+                <atributo nombre="COORDENADA-Y">4472004</atributo>
+                <atributo nombre="LATITUD">40.39625489450572</atributo>
+                <atributo nombre="LONGITUD">-3.7435473086243887</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 088 758</atributo>
+                <atributo nombre="EMAIL">azlatinacarabanchel@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">172696</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Tetuán</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.  Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Alvarado Bus: 124, 128, 3, 64, 66]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=bd12ff632081c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">JUAN PANTOJA</atributo>
+                <atributo nombre="CLASE-VIAL">CALLE</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">2</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28039</atributo>
+                <atributo nombre="DISTRITO">TETUAN</atributo>
+                <atributo nombre="COORDENADA-X">440316</atributo>
+                <atributo nombre="COORDENADA-Y">4477949</atributo>
+                <atributo nombre="LATITUD">40.4500495518789</atributo>
+                <atributo nombre="LONGITUD">-3.703857334297647</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 336 559</atributo>
+                <atributo nombre="EMAIL">aztetuanae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">172694</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Vicálvaro</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.  Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Vicálvaro Bus: 4, 100, 106, 130]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=f7613f6b3d91f010VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">DAROCA</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">327</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28032</atributo>
+                <atributo nombre="BARRIO">AMBROZ</atributo>
+                <atributo nombre="DISTRITO">VICALVARO</atributo>
+                <atributo nombre="COORDENADA-X">448288</atributo>
+                <atributo nombre="COORDENADA-Y">4472762</atributo>
+                <atributo nombre="LATITUD">40.40385606143898</atributo>
+                <atributo nombre="LONGITUD">-3.6094163274740048</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">917 753 950</atributo>
+                <atributo nombre="EMAIL">azvicalvaroae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">172693</atributo>
+            <atributo nombre="NOMBRE">Agencia de Proximidad de Villaverde</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Orientación laboral Bolsa de Empleo      Puede solicitar cita previa a través de los siguientes canales de Línea Madrid:  En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo.  Telefónica: a través del 010 o del 914 800 010 (Teléfono gratuito)  Presencial: en las Oficinas de Atención a la Ciudadanía.  Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo.   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Ciudad de los Ángeles Bus: 22, 86]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=5a62ff632081c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">OROVILLA</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">54</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28041</atributo>
+                <atributo nombre="COD-BARRIO">4</atributo>
+                <atributo nombre="BARRIO">LOS ROSALES</atributo>
+                <atributo nombre="COD-DISTRITO">17</atributo>
+                <atributo nombre="DISTRITO">VILLAVERDE</atributo>
+                <atributo nombre="COORDENADA-X">441425</atributo>
+                <atributo nombre="COORDENADA-Y">4467791</atributo>
+                <atributo nombre="LATITUD">40.358565879253504</atributo>
+                <atributo nombre="LONGITUD">-3.6898445513068863</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">917 239 223</atributo>
+                <atributo nombre="EMAIL">azvillaverdeae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">5520488</atributo>
+            <atributo nombre="NOMBRE">Bolsa de Empleo del Sector Alimentario, Mercamadrid (Agencia de Proximidad)</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De atención a Empresas: de lunes a viernes de 9 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:  Bolsa de Empleo especializada en el sector alimentario para demandantes de empleo con experiencia o formación en el sector. Orientación laboral.  Puede solicitar cita previa a través de los siguientes canales de Línea Madrid: En línea: accediendo al Sistema municipal de cita previa, seleccionando trámite o servicio: Empleo por cuenta ajena. Información y orientación laboral. Bolsa de empleo  o  Empleo por cuenta propia. Asesoramiento individual. Telefónica: a través del 010; 91 588 03 32 (Teléfono gratuito). Presencial: en las Oficinas de Atención a la Ciudadanía. También puede remitir su CV a aemercamadrid@madrid.es   Para la primera cita es necesario presentar la siguiente documentación:   DNI/NIE (Permiso de trabajo) Acreditación de experiencia laboral (vida laboral) Acreditación de formación reglada y complementaria. Carnéts profesionales (si se poseen) Certificados (discapacidad, etcétera) Currículum Vitae actualizado. Tarjeta de la Demanda de Empleo / Mejora de Empleo   Servicio para empresas:   Asesoramiento en gestión de Recursos Humanos. Intermediación laboral.  Para empresas no es necesario pedir cita previa.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Autobuses: T-32 desde la Paza de Legazpi (24 horas) y 130 desde Vicálvaro y Villaverde (desde la Plaza de Ágata o Puente Alcocer)]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=da78d06e632a5210VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">Zona Comercial Local 1E/1F Mercamadrid. Salida 20 de la M-40</atributo>
+                <atributo nombre="TIPO-NUM">v</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28018</atributo>
+                <atributo nombre="BARRIO">VALDEFUENTES</atributo>
+                <atributo nombre="DISTRITO">VILLA DE VALLECAS</atributo>
+                <atributo nombre="COORDENADA-X">443827</atributo>
+                <atributo nombre="COORDENADA-Y">4467859</atributo>
+                <atributo nombre="LATITUD">40.359397848252364</atributo>
+                <atributo nombre="LONGITUD">-3.661552967638453</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">915 880 332</atributo>
+                <atributo nombre="EMAIL">aemercamadrid@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">11700727</atributo>
+            <atributo nombre="NOMBRE">Centro de la Agencia para el Empleo en Retiro</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Agencia de Colocación Autorizada 1300000002]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes de 8:30 a 14 horas.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Para las personas desempleadas:   Información sobre los recursos de la Agencia  Oficina de la red Eures (Servicios Europeos de Empleo)   Telefónica: a través del 010]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Pacífico  Autobuses:  8, 10, 24, 37, 54, 56, 57, 141]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=ef0f03bc4d911810VgnVCM1000001d4a900aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">CIUDAD DE BARCELONA</atributo>
+                <atributo nombre="CLASE-VIAL">AVENIDA</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">164</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28007</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">PACIFICO</atributo>
+                <atributo nombre="COD-DISTRITO">3</atributo>
+                <atributo nombre="DISTRITO">RETIRO</atributo>
+                <atributo nombre="COORDENADA-X">442579</atributo>
+                <atributo nombre="COORDENADA-Y">4472601</atributo>
+                <atributo nombre="LATITUD">40.402042929683056</atributo>
+                <atributo nombre="LONGITUD">-3.676672369284189</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="EMAIL">proyectoseuropeosae@madrid.es</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">185152</atributo>
+            <atributo nombre="NOMBRE">Centro de la Agencia para el Empleo Jerte</atributo>
+            <atributo nombre="HORARIO"><![CDATA[De lunes a viernes 9 a 15 horas. Durante los meses de julio, agosto, septiembre y Semana de San Isidro el horario de atención será de 9 a 14 horas.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Bus: 3, 60, 148]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">0</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=cb8dad69b8e5d010VgnVCM2000000c205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">JERTE</atributo>
+                <atributo nombre="CLASE-VIAL">CALLE</atributo>
+                <atributo nombre="TIPO-NUM">NUM</atributo>
+                <atributo nombre="NUM">3</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28005</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">PALACIO</atributo>
+                <atributo nombre="COD-DISTRITO">1</atributo>
+                <atributo nombre="DISTRITO">CENTRO</atributo>
+                <atributo nombre="COORDENADA-X">439289</atributo>
+                <atributo nombre="COORDENADA-Y">4473597</atributo>
+                <atributo nombre="LATITUD">40.41077050441227</atributo>
+                <atributo nombre="LONGITUD">-3.715552056000273</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">913 644 189</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+    <contenido>
+        <tipo>EntidadesYOrganismos</tipo>
+        <atributos idioma="es">
+            <atributo nombre="ID-ENTIDAD">6923</atributo>
+            <atributo nombre="NOMBRE">Organismo Autónomo Agencia para el Empleo de Madrid Oficinas Centrales</atributo>
+            <atributo nombre="DESCRIPCION-ENTIDAD"><![CDATA[Oficinas Centrales y Registro.]]></atributo>
+            <atributo nombre="HORARIO"><![CDATA[OFICINAS: Laborables de lunes a viernes de 9 a 14 horas. REGISTRO: Laborables de lunes a viernes de 8:30 a 14 horas. CERRADO: los días 24 y 31 de diciembre.]]></atributo>
+            <atributo nombre="EQUIPAMIENTO"><![CDATA[Gestión de las políticas municipales de empleo, mediante la intermediación laboral, la orientación y formación de los desempleados y trabajadores. Fomento del empleo estable y de calidad. Áreas funcionales para llevar a cabo diversas actuaciones dirigidas al fomento del empleo.]]></atributo>
+            <atributo nombre="TRANSPORTE"><![CDATA[Metro: Puerta de Toledo y Pirámides. Bus: 17, 23, 35, 36, 18 y C]]></atributo>
+            <atributo nombre="ACCESIBILIDAD">1</atributo>
+            <atributo nombre="CONTENT-URL">http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&amp;vgnextoid=15fb93e5fd61c010VgnVCM1000000b205a0aRCRD</atributo>
+            <atributo nombre="LOCALIZACION">
+                <atributo nombre="NOMBRE-VIA">DE LOS PONTONES</atributo>
+                <atributo nombre="CLASE-VIAL">PASEO</atributo>
+                <atributo nombre="TIPO-NUM">V</atributo>
+                <atributo nombre="NUM">10</atributo>
+                <atributo nombre="LOCALIDAD">MADRID</atributo>
+                <atributo nombre="PROVINCIA">MADRID</atributo>
+                <atributo nombre="CODIGO-POSTAL">28005</atributo>
+                <atributo nombre="COD-BARRIO">1</atributo>
+                <atributo nombre="BARRIO">IMPERIAL</atributo>
+                <atributo nombre="COD-DISTRITO">2</atributo>
+                <atributo nombre="DISTRITO">ARGANZUELA</atributo>
+                <atributo nombre="COORDENADA-X">439305</atributo>
+                <atributo nombre="COORDENADA-Y">4472971</atributo>
+                <atributo nombre="LATITUD">40.405141382206395</atributo>
+                <atributo nombre="LONGITUD">-3.7153038821293856</atributo>
+            </atributo>
+            <atributo nombre="DATOSCONTACTOS">
+                <atributo nombre="TELEFONO">010</atributo>
+            </atributo>
+            <atributo nombre="TIPO">/contenido/entidadesYorganismos/OficinasEmpleo</atributo>
+        </atributos>
+    </contenido>
+</Contenidos>
+
