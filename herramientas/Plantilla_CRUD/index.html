@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de XXX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de XXX</h1>
+        <div class="table-container">
+            <table class="styled-table" id="XXX-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Contenido</th>
+                        <th>Expiración</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- XXX dinámicas aquí -->
+                </tbody>
+            </table>
+        </div>
+        <button onclick="window.location.href='create.html'" class="btn-create">Crear Nueva XXX</button>
+    </div>
+    <div class="popup" id="popup" style="display: none;">
+        <div class="popup-content">
+            <p>¿Estás seguro de que deseas eliminar esta XXX?</p>
+            <button id="confirm-delete" class="btn-confirm">Eliminar</button>
+            <button id="cancel-delete" class="btn-cancel">Cancelar</button>
+        </div>
+    </div>
+    
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
