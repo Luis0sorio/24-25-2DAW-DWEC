@@ -1,27 +1,32 @@
-
-# Leaflet Marker Properties and Methods
+# Propiedades y Métodos del Marker en Leaflet
 
 ## Marker (`L.marker`)
 
-The `L.marker` class is used to create markers on a Leaflet map. A marker is a visual representation (typically a pin) placed on specific coordinates.
+La clase `L.marker` se utiliza para crear marcadores en un mapa de Leaflet. 
 
-### **Syntax**
+Un marcador es una representación visual (típicamente un pin) colocado en coordenadas específicas.
+
+### **Sintaxis**
+
 ```javascript
 L.marker(latlng, options)
 ```
-- **latlng**: An array `[latitude, longitude]` that specifies the location of the marker.
-- **options**: An optional object to configure the marker's behavior and appearance.
 
-### **Details**
-| **Property**       | **Description**                                       |
-|---------------------|-------------------------------------------------------|
-| `draggable`        | Allows the marker to be dragged on the map.            |
-| `opacity`          | Sets the opacity of the marker (0 to 1).               |
-| `icon`             | Specifies a custom icon for the marker.               |
-| `zIndexOffset`     | Controls the stacking order of markers.                |
-| `autoPan`          | If `true`, pans the map when the marker is near the edge.|
+- **latlng**: Un array `[latitud, longitud]` que especifica la ubicación del marcador.
+- **options**: Un objeto opcional para configurar el comportamiento y la apariencia del marcador.
 
-### **Example**
+### **Detalles**
+
+| **Propiedad**  | **Descripción**                                              |
+| -------------- | ------------------------------------------------------------ |
+| `draggable`    | Permite arrastrar el marcador en el mapa.                    |
+| `opacity`      | Establece la opacidad del marcador (0 a 1).                  |
+| `icon`         | Especifica un icono personalizado para el marcador.          |
+| `zIndexOffset` | Controla el orden de apilamiento de los marcadores.          |
+| `autoPan`      | Si es `true`, desplaza el mapa cuando el marcador está cerca del borde. |
+
+### **Ejemplo**
+
 ```javascript
 L.marker([40.4, -3.7], { draggable: true, opacity: 0.8 }).addTo(map);
 ```
@@ -30,16 +35,20 @@ L.marker([40.4, -3.7], { draggable: true, opacity: 0.8 }).addTo(map);
 
 ## `addTo()`
 
-### **Description**
-Adds the marker (or other Leaflet layers) to a specified map.
+### **Descripción**
 
-### **Syntax**
+Agrega el marcador (u otras capas de Leaflet) a un mapa específico.
+
+### **Sintaxis**
+
 ```javascript
 marker.addTo(map);
 ```
-- **map**: The Leaflet map instance where the marker will be added.
 
-### **Example**
+- **map**: La instancia del mapa Leaflet donde se añadirá el marcador.
+
+### **Ejemplo**
+
 ```javascript
 L.marker([40.4, -3.7]).addTo(map);
 ```
@@ -48,44 +57,52 @@ L.marker([40.4, -3.7]).addTo(map);
 
 ## `bindPopup()`
 
-### **Description**
-Binds a popup to the marker that will display a custom message or content when clicked.
+### **Descripción**
 
-### **Syntax**
+Asocia un popup al marcador que mostrará un mensaje o contenido personalizado al hacer clic.
+
+### **Sintaxis**
+
 ```javascript
 marker.bindPopup(content, options);
 ```
-- **content**: The content to display inside the popup. This can be a string, HTML, or a function.
-- **options**: An object to customize the popup's behavior.
 
-### **Example**
+- **content**: El contenido para mostrar dentro del popup. Puede ser una cadena, HTML o una función.
+- **options**: Un objeto para personalizar el comportamiento del popup.
+
+### **Ejemplo**
+
 ```javascript
-L.marker([40.4, -3.7]).bindPopup("Hello, this is a popup!").addTo(map);
+L.marker([40.4, -3.7]).bindPopup("¡Hola, este es un popup!").addTo(map);
 ```
 
 ---
 
 ## `openPopup()`
 
-### **Description**
-Opens the popup associated with the marker. Useful for automatically showing information when the marker is created.
+### **Descripción**
 
-### **Syntax**
+Abre el popup asociado con el marcador. Útil para mostrar información automáticamente al crear el marcador.
+
+### **Sintaxis**
+
 ```javascript
 marker.openPopup();
 ```
 
-### **Example**
+### **Ejemplo**
+
 ```javascript
-L.marker([40.4, -3.7]).bindPopup("Popup opened automatically").addTo(map).openPopup();
+L.marker([40.4, -3.7]).bindPopup("Popup abierto automáticamente").addTo(map).openPopup();
 ```
 
 ---
 
-## **Additional Marker Properties and Features**
+## **Propiedades y Características Adicionales del Marcador**
 
-### **Custom Icons**
-Use custom icons to replace the default marker.
+### **Iconos Personalizados**
+
+Usa iconos personalizados para reemplazar el marcador predeterminado.
 
 ```javascript
 const customIcon = L.icon({
@@ -100,19 +117,21 @@ L.marker([40.4, -3.7], { icon: customIcon }).addTo(map);
 
 ---
 
-### **Event Handling**
-Add interactivity by attaching events to the marker.
+### **Manejo de Eventos**
+
+Añade interactividad asociando eventos al marcador.
 
 ```javascript
 L.marker([40.4, -3.7]).on('click', function () {
-    alert("Marker clicked!");
+    alert("¡Marcador clicado!");
 }).addTo(map);
 ```
 
 ---
 
-### **Circle Around Marker**
-Highlight an area around the marker.
+### **Círculo Alrededor del Marcador**
+
+Resalta un área alrededor del marcador.
 
 ```javascript
 L.circle([40.4, -3.7], { radius: 100 }).addTo(map);
@@ -121,16 +140,18 @@ L.circle([40.4, -3.7], { radius: 100 }).addTo(map);
 ---
 
 ### **Tooltips**
-Add tooltips that show additional information when hovering.
+
+Añade tooltips que muestren información adicional al pasar el ratón.
 
 ```javascript
-L.marker([40.4, -3.7]).bindTooltip("This is a tooltip").addTo(map);
+L.marker([40.4, -3.7]).bindTooltip("Esto es un tooltip").addTo(map);
 ```
 
 ---
 
-### **Clustering**
-Combine multiple markers into clusters.
+### **Agrupación**
+
+Combina múltiples marcadores en clústeres.
 
 ```javascript
 const markers = L.markerClusterGroup();
@@ -141,8 +162,9 @@ map.addLayer(markers);
 
 ---
 
-### **Dragging Markers**
-Allow markers to be dragged.
+### **Marcadores Arrastrables**
+
+Permite que los marcadores sean arrastrados.
 
 ```javascript
 L.marker([40.4, -3.7], { draggable: true }).addTo(map);
@@ -150,8 +172,9 @@ L.marker([40.4, -3.7], { draggable: true }).addTo(map);
 
 ---
 
-### **Opacity**
-Change the transparency of the marker.
+### **Opacidad**
+
+Cambia la transparencia del marcador.
 
 ```javascript
 L.marker([40.4, -3.7], { opacity: 0.5 }).addTo(map);
@@ -159,9 +182,12 @@ L.marker([40.4, -3.7], { opacity: 0.5 }).addTo(map);
 
 ---
 
-### **Z-Index Offset**
-Control the stacking order of markers.
+### **Desplazamiento Z-Index**
+
+Controla el orden de apilamiento de los marcadores.
 
 ```javascript
 L.marker([40.4, -3.7], { zIndexOffset: 1000 }).addTo(map);
 ```
+
+---

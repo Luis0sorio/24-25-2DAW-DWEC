@@ -1,34 +1,36 @@
 
-# Leaflet Map Properties and Methods
+# Propiedades y Métodos del Map en Leaflet
 
 ## Map (`L.map`)
 
-The `L.map` class is the core class in Leaflet, used to create and manage the interactive map instance. It serves as the main container for layers, controls, and interactions.
+La clase `L.map` es la clase principal en Leaflet, utilizada para crear y gestionar la instancia de un mapa interactivo. 
 
-### **Syntax**
+Sirve como el contenedor principal para capas, controles e interacciones.
+
+### **Sintaxis**
 ```javascript
 L.map(id, options)
 ```
-- **id**: The ID of the HTML element where the map will be rendered.
-- **options**: An optional object to configure map behaviors and visuals.
+- **id**: El ID del elemento HTML donde se renderizará el mapa.
+- **options**: Un objeto opcional para configurar el comportamiento y los aspectos visuales del mapa.
 
-### **Details**
-| **Option**           | **Description**                                                                 |
+### **Detalles**
+| **Opción**           | **Descripción**                                                                 |
 |-----------------------|---------------------------------------------------------------------------------|
-| `center`             | The initial center of the map as `[latitude, longitude]`.                       |
-| `zoom`               | Initial zoom level of the map.                                                  |
-| `minZoom`            | Minimum zoom level allowed.                                                     |
-| `maxZoom`            | Maximum zoom level allowed.                                                     |
-| `layers`             | Array of layers to be added initially.                                          |
-| `zoomControl`        | Enables or disables the default zoom controls (`true` by default).              |
-| `dragging`           | Enables or disables dragging the map.                                           |
-| `scrollWheelZoom`    | Allows zooming the map with the mouse wheel (`true` or `false`).                |
-| `doubleClickZoom`    | Enables zooming with double-click.                                              |
-| `touchZoom`          | Enables zooming with touch gestures.                                            |
-| `keyboard`           | Enables keyboard navigation for the map.                                        |
-| `zoomAnimation`      | Enables smooth zoom animations.                                                 |
+| `center`             | El centro inicial del mapa como `[latitud, longitud]`.                          |
+| `zoom`               | Nivel de zoom inicial del mapa.                                                 |
+| `minZoom`            | Nivel mínimo de zoom permitido.                                                 |
+| `maxZoom`            | Nivel máximo de zoom permitido.                                                 |
+| `layers`             | Array de capas que se añadirán inicialmente.                                    |
+| `zoomControl`        | Activa o desactiva los controles de zoom por defecto (`true` por defecto).       |
+| `dragging`           | Activa o desactiva el arrastre del mapa.                                         |
+| `scrollWheelZoom`    | Permite hacer zoom en el mapa con la rueda del ratón (`true` o `false`).         |
+| `doubleClickZoom`    | Activa el zoom con doble clic.                                                   |
+| `touchZoom`          | Activa el zoom con gestos táctiles.                                             |
+| `keyboard`           | Activa la navegación con el teclado para el mapa.                               |
+| `zoomAnimation`      | Activa animaciones suaves al hacer zoom.                                        |
 
-### **Example**
+### **Ejemplo**
 ```javascript
 const map = L.map('map', {
     center: [40.4, -3.7],
@@ -42,18 +44,18 @@ const map = L.map('map', {
 
 ## `setView()`
 
-### **Description**
-Centers the map on a specified location with a given zoom level.
+### **Descripción**
+Centra el mapa en una ubicación especificada con un nivel de zoom dado.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.setView(latlng, zoom, options);
 ```
-- **latlng**: An array `[latitude, longitude]` specifying the new center.
-- **zoom**: The desired zoom level.
-- **options**: Optional object with animation options.
+- **latlng**: Un array `[latitud, longitud]` que especifica el nuevo centro.
+- **zoom**: El nivel de zoom deseado.
+- **options**: Objeto opcional con opciones de animación.
 
-### **Example**
+### **Ejemplo**
 ```javascript
 map.setView([40.4, -3.7], 10, { animate: true, duration: 0.5 });
 ```
@@ -62,16 +64,16 @@ map.setView([40.4, -3.7], 10, { animate: true, duration: 0.5 });
 
 ## `addLayer()`
 
-### **Description**
-Adds a layer (like a tile layer or marker) to the map.
+### **Descripción**
+Añade una capa (como una capa de mosaicos o un marcador) al mapa.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.addLayer(layer);
 ```
-- **layer**: A valid Leaflet layer to add.
+- **layer**: Una capa válida de Leaflet para añadir.
 
-### **Example**
+### **Ejemplo**
 ```javascript
 const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(tileLayer);
@@ -81,15 +83,15 @@ map.addLayer(tileLayer);
 
 ## `removeLayer()`
 
-### **Description**
-Removes a layer from the map.
+### **Descripción**
+Elimina una capa del mapa.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.removeLayer(layer);
 ```
 
-### **Example**
+### **Ejemplo**
 ```javascript
 map.removeLayer(tileLayer);
 ```
@@ -98,15 +100,15 @@ map.removeLayer(tileLayer);
 
 ## `panTo()`
 
-### **Description**
-Pans the map to a new center.
+### **Descripción**
+Desplaza el mapa a un nuevo centro.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.panTo(latlng, options);
 ```
 
-### **Example**
+### **Ejemplo**
 ```javascript
 map.panTo([40.5, -3.6], { animate: true, duration: 0.5 });
 ```
@@ -115,16 +117,16 @@ map.panTo([40.5, -3.6], { animate: true, duration: 0.5 });
 
 ## `fitBounds()`
 
-### **Description**
-Fits the map to the bounds of a given area.
+### **Descripción**
+Ajusta el mapa para que se encaje dentro de los límites de un área específica.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.fitBounds(bounds, options);
 ```
-- **bounds**: A `LatLngBounds` object or an array of two coordinates.
+- **bounds**: Un objeto `LatLngBounds` o un array de dos coordenadas.
 
-### **Example**
+### **Ejemplo**
 ```javascript
 map.fitBounds([[40.4, -3.8], [40.5, -3.6]]);
 ```
@@ -133,15 +135,15 @@ map.fitBounds([[40.4, -3.8], [40.5, -3.6]]);
 
 ## `invalidateSize()`
 
-### **Description**
-Adjusts the map's size after changes to its container.
+### **Descripción**
+Ajusta el tamaño del mapa después de cambios en su contenedor.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.invalidateSize(options);
 ```
 
-### **Example**
+### **Ejemplo**
 ```javascript
 map.invalidateSize();
 ```
@@ -150,25 +152,25 @@ map.invalidateSize();
 
 ## `getZoom()`
 
-### **Description**
-Returns the current zoom level of the map.
+### **Descripción**
+Devuelve el nivel de zoom actual del mapa.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 map.getZoom();
 ```
 
-### **Example**
+### **Ejemplo**
 ```javascript
-console.log("Current Zoom Level:", map.getZoom());
+console.log("Nivel de Zoom Actual:", map.getZoom());
 ```
 
 ---
 
-## **Additional Map Methods and Features**
+## **Métodos y Funciones Adicionales del Mapa**
 
-### **Zoom In/Out**
-Manually zoom in or out on the map.
+### **Acercar/Alejar**
+Acerca o aleja manualmente el mapa.
 
 ```javascript
 map.zoomIn();
@@ -177,19 +179,19 @@ map.zoomOut();
 
 ---
 
-### **Event Handling**
-Attach events to the map for interactivity.
+### **Manejo de Eventos**
+Asocia eventos al mapa para agregar interactividad.
 
 ```javascript
 map.on('click', function (e) {
-    alert(`You clicked the map at ${e.latlng}`);
+    alert(`Hiciste clic en el mapa en ${e.latlng}`);
 });
 ```
 
 ---
 
-### **Tile Layers**
-Add a tile layer for map rendering.
+### **Capas de Mosaicos**
+Añade una capa de mosaicos para representar el mapa.
 
 ```javascript
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -200,17 +202,17 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **Map Controls**
-Add custom controls to the map.
+### **Controles del Mapa**
+Añade controles personalizados al mapa.
 
 ```javascript
-L.control.scale().addTo(map); // Adds a scale bar
+L.control.scale().addTo(map); // Añade una barra de escala
 ```
 
 ---
 
-### **Disable Interactions**
-Disable specific map interactions.
+### **Desactivar Interacciones**
+Desactiva interacciones específicas del mapa.
 
 ```javascript
 map.dragging.disable();
@@ -219,19 +221,18 @@ map.scrollWheelZoom.disable();
 
 ---
 
-### **Map Events**
-Respond to different map-related events.
+### **Eventos del Mapa**
+Responde a diferentes eventos relacionados con el mapa.
 
-| **Event**       | **Description**                                   |
+| **Evento**       | **Descripción**                                   |
 |------------------|--------------------------------------------------|
-| `click`         | Fired when the user clicks on the map.            |
-| `zoomstart`     | Fired when the zoom starts changing.              |
-| `zoomend`       | Fired when the zoom level has changed.            |
-| `move`          | Fired when the map has been dragged.              |
+| `click`         | Se activa cuando el usuario hace clic en el mapa. |
+| `zoomstart`     | Se activa al comenzar a cambiar el zoom.          |
+| `zoomend`       | Se activa cuando el nivel de zoom ha cambiado.    |
+| `move`          | Se activa cuando el mapa ha sido arrastrado.      |
 
 ```javascript
 map.on('zoomend', function () {
-    console.log("Zoom level changed to", map.getZoom());
+    console.log("El nivel de zoom ha cambiado a", map.getZoom());
 });
 ```
-

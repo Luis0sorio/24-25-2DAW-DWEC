@@ -1,33 +1,33 @@
 
-# Leaflet TileLayer Properties and Methods
+# Propiedades y Métodos de TileLayer en Leaflet
 
 ## TileLayer (`L.tileLayer`)
 
-The `L.tileLayer` class is used to add tile-based map layers to a Leaflet map. It fetches and renders map tiles from a specified URL template.
+La clase `L.tileLayer` se utiliza para añadir capas de mapas basadas en mosaicos a un mapa Leaflet. Obtiene y renderiza mosaicos de mapas desde una plantilla de URL especificada.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 L.tileLayer(urlTemplate, options)
 ```
-- **urlTemplate**: A string template that specifies the URL pattern for fetching map tiles. Placeholders (`{x}`, `{y}`, `{z}`, etc.) will be replaced with appropriate values.
-- **options**: An optional object to configure the tile layer's behavior.
+- **urlTemplate**: Una plantilla de cadena que especifica el patrón de URL para obtener los mosaicos del mapa. Los marcadores (`{x}`, `{y}`, `{z}`, etc.) se reemplazarán con valores apropiados.
+- **options**: Un objeto opcional para configurar el comportamiento de la capa.
 
-### **Details**
-| **Option**           | **Description**                                                                 |
+### **Detalles**
+| **Opción**           | **Descripción**                                                                 |
 |-----------------------|---------------------------------------------------------------------------------|
-| `maxZoom`            | Maximum zoom level for this tile layer.                                         |
-| `minZoom`            | Minimum zoom level for this tile layer.                                         |
-| `attribution`        | Text to display attribution for the tile source.                                |
-| `tileSize`           | Size of the tiles in pixels (default: `256`).                                   |
-| `bounds`             | Restricts the layer to a specific geographical area (`LatLngBounds`).           |
-| `opacity`            | Sets the opacity of the tiles (0 to 1).                                         |
-| `zIndex`             | Controls the stacking order of the tiles.                                       |
-| `errorTileUrl`       | URL of the tile to show when the requested tile fails to load.                  |
-| `updateWhenIdle`     | Updates tiles only when the map stops moving (default: `true`).                 |
-| `detectRetina`       | Loads high-resolution tiles for Retina displays (default: `false`).             |
-| `subdomains`         | Array of subdomains to load tiles from (e.g., `['a', 'b', 'c']`).               |
+| `maxZoom`            | Nivel máximo de zoom para esta capa de mosaicos.                               |
+| `minZoom`            | Nivel mínimo de zoom para esta capa de mosaicos.                               |
+| `attribution`        | Texto para mostrar la atribución de la fuente del mosaico.                     |
+| `tileSize`           | Tamaño de los mosaicos en píxeles (por defecto: `256`).                        |
+| `bounds`             | Restringe la capa a un área geográfica específica (`LatLngBounds`).            |
+| `opacity`            | Establece la opacidad de los mosaicos (0 a 1).                                 |
+| `zIndex`             | Controla el orden de apilamiento de los mosaicos.                              |
+| `errorTileUrl`       | URL del mosaico a mostrar cuando el mosaico solicitado falla al cargarse.       |
+| `updateWhenIdle`     | Actualiza los mosaicos solo cuando el mapa deja de moverse (por defecto: `true`).|
+| `detectRetina`       | Carga mosaicos de alta resolución para pantallas Retina (por defecto: `false`). |
+| `subdomains`         | Array de subdominios desde donde cargar mosaicos (por ejemplo, `['a', 'b', 'c']`).|
 
-### **Example**
+### **Ejemplo**
 ```javascript
 const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -40,16 +40,16 @@ tileLayer.addTo(map);
 
 ## `addTo()`
 
-### **Description**
-Adds the tile layer to the specified map.
+### **Descripción**
+Agrega la capa de mosaicos al mapa especificado.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 tileLayer.addTo(map);
 ```
-- **map**: The Leaflet map instance where the tile layer will be added.
+- **map**: La instancia del mapa Leaflet donde se añadirá la capa de mosaicos.
 
-### **Example**
+### **Ejemplo**
 ```javascript
 const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 tileLayer.addTo(map);
@@ -59,63 +59,63 @@ tileLayer.addTo(map);
 
 ## `setOpacity()`
 
-### **Description**
-Sets the opacity of the tile layer.
+### **Descripción**
+Establece la opacidad de la capa de mosaicos.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 tileLayer.setOpacity(opacity);
 ```
-- **opacity**: A number between `0` (fully transparent) and `1` (fully opaque).
+- **opacity**: Un número entre `0` (completamente transparente) y `1` (completamente opaco).
 
-### **Example**
+### **Ejemplo**
 ```javascript
-tileLayer.setOpacity(0.5); // Makes the tiles 50% transparent.
+tileLayer.setOpacity(0.5); // Hace que los mosaicos sean 50% transparentes.
 ```
 
 ---
 
 ## `setZIndex()`
 
-### **Description**
-Sets the stacking order (z-index) of the tile layer.
+### **Descripción**
+Establece el orden de apilamiento (z-index) de la capa de mosaicos.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 tileLayer.setZIndex(zIndex);
 ```
-- **zIndex**: The new stacking order for the tiles.
+- **zIndex**: El nuevo orden de apilamiento para los mosaicos.
 
-### **Example**
+### **Ejemplo**
 ```javascript
-tileLayer.setZIndex(1000); // Ensures the tile layer is above other layers.
+tileLayer.setZIndex(1000); // Asegura que la capa de mosaicos esté encima de otras capas.
 ```
 
 ---
 
 ## `setUrl()`
 
-### **Description**
-Updates the URL template for the tile layer dynamically.
+### **Descripción**
+Actualiza dinámicamente la plantilla de URL para la capa de mosaicos.
 
-### **Syntax**
+### **Sintaxis**
 ```javascript
 tileLayer.setUrl(urlTemplate, noRedraw);
 ```
-- **urlTemplate**: The new URL template for the tiles.
-- **noRedraw**: If `true`, prevents tiles from being redrawn immediately.
+- **urlTemplate**: La nueva plantilla de URL para los mosaicos.
+- **noRedraw**: Si es `true`, evita que los mosaicos se redibujen inmediatamente.
 
-### **Example**
+### **Ejemplo**
 ```javascript
 tileLayer.setUrl('https://another-server/{z}/{x}/{y}.png');
 ```
 
 ---
 
-## **Additional TileLayer Features**
+## **Características Adicionales de la Capa de Mosaicos**
 
-### **Error Handling for Tiles**
-Display a fallback tile when loading fails.
+### **Manejo de Errores en los Mosaicos**
+Muestra un mosaico de respaldo cuando la carga falla.
 
 ```javascript
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -125,8 +125,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **Restrict TileLayer Bounds**
-Restrict the tile layer to specific geographical bounds.
+### **Restringir los Límites de la Capa**
+Restringe la capa de mosaicos a límites geográficos específicos.
 
 ```javascript
 const bounds = L.latLngBounds([[40.0, -3.8], [41.0, -3.6]]);
@@ -137,8 +137,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **Detect Retina Displays**
-Automatically load high-resolution tiles for Retina screens.
+### **Detectar Pantallas Retina**
+Carga automáticamente mosaicos de alta resolución para pantallas Retina.
 
 ```javascript
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -148,8 +148,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **Custom Subdomains**
-Distribute tile requests across multiple subdomains.
+### **Subdominios Personalizados**
+Distribuye las solicitudes de mosaicos entre múltiples subdominios.
 
 ```javascript
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -159,8 +159,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **Tile Size Adjustment**
-Set a custom tile size.
+### **Ajuste del Tamaño de los Mosaicos**
+Establece un tamaño de mosaico personalizado.
 
 ```javascript
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -170,19 +170,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 ---
 
-### **TileLayer Events**
-Attach events to the tile layer.
+### **Eventos de la Capa de Mosaicos**
+Asocia eventos a la capa de mosaicos.
 
-| **Event**       | **Description**                                   |
+| **Evento**       | **Descripción**                                   |
 |------------------|--------------------------------------------------|
-| `loading`       | Fired when new tiles are being loaded.            |
-| `tileloadstart` | Fired when a tile starts loading.                 |
-| `tileload`      | Fired when a tile is successfully loaded.         |
-| `tileerror`     | Fired when a tile fails to load.                  |
+| `loading`       | Se activa cuando se están cargando nuevos mosaicos.|
+| `tileloadstart` | Se activa cuando comienza a cargarse un mosaico.  |
+| `tileload`      | Se activa cuando un mosaico se carga con éxito.   |
+| `tileerror`     | Se activa cuando un mosaico falla al cargarse.    |
 
 ```javascript
 tileLayer.on('tileerror', function (e) {
-    console.log("Error loading tile:", e);
+    console.log("Error al cargar el mosaico:", e);
 });
 ```
-
