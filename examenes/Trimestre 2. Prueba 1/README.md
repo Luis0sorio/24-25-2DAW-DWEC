@@ -74,7 +74,7 @@ Código para la carga de ficheros con el DOM.
 ## Otras ayudas de código.
 
 ### Transformación de formato.
-Para aquellos estudiantes que elijan ***`Wikidata API:`*** se facilita una línea de código que transforma en un array las coordenadas. Tambien puede ser utilizado para las otras dos API pero de forma diferente.
+Para aquellos estudiantes que elijan una API que trabaje como ***`Wikidata API:`*** se facilita una línea de código que transforma en un array las coordenadas. 
 
 ```javascript
 const coords = lugar.coord.value.replace("Point(", "").replace(")", "").split(" ");
@@ -93,3 +93,4 @@ const coords = lugar.coord.value.replace("Point(", "").replace(")", "").split(" 
 - No se corrigen ejercicios sin vídeo.
 - No se permite el uso de ninguna documentación que no sea la del GitHub de clase o consultas en internet (***SIEMPRE FACILITANDO LA FUENTE EN EL CÓDIGO O EN EL README.MD***). Se penalizará con, al menos 1 punto, por cada código extraido de internet sin colocar la fuente.
 - No se permite el uso de ninguna inteligencia atificial o extensión que realice código. La penalización será un 0 en el examen.
+- Wikidata API no puede ser elegida puesto que es el ejemplo sobre el que apoyarse.
