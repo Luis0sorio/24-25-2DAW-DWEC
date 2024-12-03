@@ -74,7 +74,7 @@ Código para la carga de ficheros con el DOM.
 ## Otras ayudas de código.
 
 ### Transformación de formato.
-Para aquellos estudiantes que elijan ***`Wikidata API:`*** se facilita una línea de código que transforma en un array las coordenadas.
+Para aquellos estudiantes que elijan ***`Wikidata API:`*** se facilita una línea de código que transforma en un array las coordenadas. Tambien puede ser utilizado para las otras dos API pero de forma diferente.
 
 ```javascript
 const coords = lugar.coord.value.replace("Point(", "").replace(")", "").split(" ");
