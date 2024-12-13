@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    // import { getAuth } from "firebase/auth";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged  } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyA-r2fVtRxa5QAcyBP3F4b2C3pgL7kmOFU",
+      authDomain: "prueba-clase-daw.firebaseapp.com",
+      projectId: "prueba-clase-daw",
+      storageBucket: "prueba-clase-daw.firebasestorage.app",
+      messagingSenderId: "103244344761",
+      appId: "1:103244344761:web:c1b674ffee26e8a8b25a68",
+      measurementId: "G-NTVYV9QXGY"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Firebase Authentication and get a reference to the service
+    // const auth = getAuth(app);
+
+    /**
+     * Metodo para crear nuevos usuarios
+     * */
+     const auth = getAuth();
+    // createUserWithEmailAndPassword(auth, 'sergio2.fontan@educa.madrid.org', '12345678')
+    // .then((userCredential) => {
+    //     // Signed up 
+    //    alert("Usuario registrado correctamente");
+    //     // ...
+    // })
+    // .catch((error) => {
+    //     alert(`ERROR: ${error.code}: ${error.message}`)
+    //     // ..
+    // });
+
+    // createUserWithEmailAndPassword()
+    signInWithEmailAndPassword(auth, 'sergio.fontan@educa.madrid.org', '12345678')
+    .then((userCredential) => {
+        // Signed in 
+        alert("Sesion iniciada correctamente");
+        const user = userCredential.user;
+        // ...
+    })
+    .catch((error) => {
+        alert(`ERROR: ${error.code}: ${error.message}`);
+    });
+
+    onAuthStateChanged(auth, (user) => {
+    if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/auth.user
+        const uid = user.uid;
+        alert("El usuario que ha iniciado sesion es <br>" + user.email)
+        // ...
+    } else {
+        // User is signed out
+        // ...
+    }
+    });
+   
+  </script>
+<script src="app.js"></script>
+</html>
