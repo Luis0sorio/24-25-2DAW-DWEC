@@ -80,7 +80,7 @@ El módulo se organiza en dos trimestres con los siguientes contenidos principal
 
 IES Juan de la Cierva, Calle de la Caoba, 1, 28005 Madrid, España
 
-![Mapa de Ubicación](URL_DE_LA_IMAGEN_DEL_MAPA)
+[Ver en Google Maps](https://www.google.com/maps/place/IES+Juan+de+la+Cierva/@40.4022742,-3.7064409,17z/data=!3m1!4b1!4m6!3m5!1s0xd4227cd87d00125:0xb9494bd1625bc449!8m2!3d40.4022742!4d-3.7064409!16s%2Fg%2F1thq1_z9?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D)
 
 ---
 
